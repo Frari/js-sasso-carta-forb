@@ -6,6 +6,7 @@ console.log(utente);
 var computer=Math.floor(Math.random()*3)+1;
 console.log(computer);
 
+// funzione e varie combinazioni lanci con rispettivi risultati
 function risultato(computer, utente){
   if(computer==1&&utente==2){
     console.log('computer lancia sasso');
@@ -30,5 +31,4 @@ function risultato(computer, utente){
     console.log('siete pari');
   }
 }
-
-// varie combinazioni lanci con rispettivi risultati
+risultato( computer, utente);
